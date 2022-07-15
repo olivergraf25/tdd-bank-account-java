@@ -9,7 +9,8 @@ public class AccountTest {
 
     @Test
 	@Disabled
-    public void depositAnAmountToIncreaseTheBalance() {
+    public void depositAnAmountToIncreaseTheBalance(int balance, int amountToDeposit, int expectedBalance )
+    {
         assertThat("your first test").isBlank();
     }
 }
